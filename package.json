@@ -1,0 +1,29 @@
+{
+  "name": "firebase-sql",
+  "version": "0.1.0",
+  "description": "A ghosting SQL server backed by firebase firestore",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/znti/firebase-sql.git"
+  },
+  "keywords": [
+    "Firebase",
+    "Firestore",
+    "SQL"
+  ],
+  "author": "Rafael Zanetti",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/znti/firebase-sql/issues"
+  },
+  "homepage": "https://github.com/znti/firebase-sql#readme",
+  "dependencies": {
+    "body-parser": "^1.19.0",
+    "express": "^4.17.1",
+    "pg": "^7.12.1"
+  }
+}
