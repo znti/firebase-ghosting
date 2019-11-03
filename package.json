@@ -2,7 +2,7 @@
   "name": "firebase-sql",
   "version": "0.1.0",
   "description": "A ghosting SQL server backed by firebase firestore",
-  "main": "index.js",
+  "main": "src/index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
@@ -22,8 +22,8 @@
   },
   "homepage": "https://github.com/znti/firebase-sql#readme",
   "dependencies": {
-    "body-parser": "^1.19.0",
     "express": "^4.17.1",
+    "firebase": "^7.2.3",
     "pg": "^7.12.1"
   }
 }

@@ -1,12 +1,10 @@
-const Express = require('express');
-const BodyParser = require('body-parser');
+const configs = require('./configs');
+const creds = require('./credentials');
 
-const app = Express();
-app.use(BodyParser.json());
+const firebase = require("firebase");
+// Required for side-effects
+require("firebase/firestore");
 
-app.route('/ping')
-	.get((res, req) => req.send('pong'));
+module.exports = () => console.log('configs are', configs, 'and credentials', creds);
 
-app.listen(8080, () => {
-	console.log('Server initialized.');
-});
+
