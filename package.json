@@ -2,7 +2,7 @@
   "name": "firebase-sql",
   "version": "0.1.0",
   "description": "A ghosting SQL server backed by firebase firestore",
-  "main": "src/index.js",
+  "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
